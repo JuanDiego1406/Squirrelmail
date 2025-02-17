@@ -1,0 +1,11 @@
+$TTL 604800
+@   IN  SOA mail.ieszv.jd. root.ieszv.jd. (
+        2         ; Serial
+        604800    ; Refresh
+        86400     ; Retry
+        2419200   ; Expire
+        604800 )  ; Negative Cache TTL
+;
+@   IN  NS  mail.ieszv.jd.
+10  IN  PTR mail.ieszv.jd.
+

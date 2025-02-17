@@ -1,0 +1,21 @@
+options {
+    directory "/var/cache/bind";
+
+    // Permitir consultas solo desde la red local
+    allow-query { 192.168.76.0/24; 127.0.0.1; };
+    
+    // Permitir recursión solo desde la red local
+    recursion yes;
+    allow-recursion { 192.168.57.0/24; 127.0.0.1; };
+
+    // Servidores DNS externos para resolución de nombres fuera de la red local
+    forwarders {
+        8.8.8.8;
+        8.8.4.4;
+    };
+
+    dnssec-validation auto;
+
+    listen-on { any; };
+    listen-on-v6 { any; };
+};

@@ -1,0 +1,9 @@
+zone "ieszv.jd" {
+    type master;
+    file "/var/lib/bind/db.ieszv.jd";
+};
+
+zone "57.168.192.in-addr.arpa" {
+    type master;
+    file "/var/lib//bind/192.168.57.rev";
+};

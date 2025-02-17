@@ -248,6 +248,13 @@ sudo systemctl restart apache2 postfix bind9
 ```
 http://mail.ieszv.jd/mail
 ```
+5. Inicias sesión y Mandar correo
+
+    - Inicias sesión con uno de los usarios que has creado y mandas un correo al otro
+
+    - Para poder mandar un correo solo tienes que pinchar en `Compose` y allí pondes `profesor@ieszv.jd` o `juandiego@ieszv.jd`
+
+    - Al entrar en al otro podrás ver como te llego el correo que mandaste desde el otro usuario.
 
 ---
 
